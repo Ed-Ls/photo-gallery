@@ -20,7 +20,7 @@ Visit your _localhost:3000_
 
 - Html, CSS
 - ReactJS library [ReactJS](https://fr.reactjs.org/)
-- Locomotive Scroll[LocomotiveScroll](https://github.com/locomotivemtl/locomotive-scroll) and Intersection Observer API
+- Locomotive Scroll [LocomotiveScroll](https://github.com/locomotivemtl/locomotive-scroll) and Intersection Observer API
 
 ## License
 
