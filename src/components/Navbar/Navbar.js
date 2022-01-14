@@ -8,12 +8,6 @@ function Navbar() {
       <div className="logo">
         <HeartBrokenIcon />
       </div>
-
-      <ul>
-        <li>Cases</li>
-        <li>Culture</li>
-        <li>Services</li>
-      </ul>
     </div>
   );
 }

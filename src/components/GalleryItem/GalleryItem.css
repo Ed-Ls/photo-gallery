@@ -1,6 +1,7 @@
 .gallery-item {
   z-index: 1;
   height: 100%;
+  position: relative;
 }
 
 .gallery-item-image {
@@ -8,6 +9,22 @@
   height: 100%;
   overflow: hidden;
   position: relative;
+  opacity: calc(80%);
+  clip-path: inset(0% 100% 0% 0%);
+  transition: clip-path 1s cubic-bezier(0.77, 0, 0.175, 1);
+}
+
+.gallery-item-image:hover {
+  transform: scale(1.2);
+  transition: transform 0.5s cubic-bezier(0.77, 0, 0.175, 1);
+  opacity: calc(100%);
+}
+.reveal {
+  clip-path: inset(0% 0% 0% 0%);
+}
+
+.reveal .gallery-item-imginner {
+  transform: scale(1);
 }
 
 .gallery-item-imginner {

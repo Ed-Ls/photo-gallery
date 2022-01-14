@@ -1,10 +1,15 @@
-import React from "react";
+import React, { useRef } from "react";
 import "./GalleryItem.css";
 import { points } from "../../data/data";
+import useOnScreen from "../../hooks/useOnScreen";
+import cn from "classnames";
 
 function GalleryItem({ src, index, columnOffset }) {
   //retrieve points from data points to place content on the Grid
   const values = points[index];
+  const ref = useRef(null);
+  const onScreen = useOnScreen(ref);
+
   if (!values) return null;
   const [row, column, spanRow, spanColumn] = values;
 
@@ -22,10 +27,11 @@ function GalleryItem({ src, index, columnOffset }) {
           column + columnOffset
         } / span ${spanRow} / span ${spanColumn}`,
       }}
+      ref={ref}
       data-scroll
       data-scroll-speed={getScrollIndex()}
     >
-      <div className="gallery-item-image">
+      <div className={cn("gallery-item-image", { reveal: onScreen })}>
         <div
           className="gallery-item-imginner"
           style={{ backgroundImage: `url(${src})` }}
