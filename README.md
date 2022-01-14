@@ -19,8 +19,8 @@ Visit your _localhost:3000_
 ## Built with
 
 - Html, CSS
-- ReactJS library [ReactJS](https://fr.reactjs.org/)
-- Locomotive Scroll [LocomotiveScroll](https://github.com/locomotivemtl/locomotive-scroll) and Intersection Observer API
+- [React JS](https://fr.reactjs.org/)
+- [Locomotive Scroll](https://github.com/locomotivemtl/locomotive-scroll) and Intersection Observer API
 
 ## License
 
