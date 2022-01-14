@@ -1,4 +1,4 @@
-# Expenses Dashboard app by Eden
+# Art Gallery Website by Eden
 
 **Here is my Art Gallery website, made with ReactJS!** 😁
 
