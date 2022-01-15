@@ -6,8 +6,6 @@ import GalleryItem from "./components/GalleryItem/GalleryItem";
 import Navbar from "./components/Navbar/Navbar";
 import { imageData } from "./data/data";
 import LocomotiveScroll from "locomotive-scroll";
-import MouseIcon from "@mui/icons-material/Mouse";
-import KeyboardArrowDownIcon from "@mui/icons-material/KeyboardArrowDown";
 
 function App() {
   const ref = useRef(null);
