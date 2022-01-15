@@ -2,7 +2,9 @@
 
 **Here is my Art Gallery website, made with ReactJS!** 😁
 
-This interactive gallery let you scroll horizontally to display pictures. Made with Locomotive Scroll and Intersection Observer API to display content on scroll with Parallax Effect.
+This interactive gallery lets you scroll horizontally to display pictures. Made with Locomotive Scroll and Intersection Observer API to display content on scroll with Parallax Effect.
+
+[Live demo](https://travel-beyond-creativity.netlify.app/)
 
 ## How to run it
 
